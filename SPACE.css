@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;background-image: url(istockphoto-2169871508-612x612.jpg);
+}
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('download.jpg');
+    color: white;
+    padding: 20px 0;
+    border: solid 5px black;
+}
+table, th, td {
+    background-color: blanchedalmond;
+    border: solid 1px black;
+    width: 50%;
+}
+img {
+    width:400px;
+    height:300px;   
+}
+ul {list-style: none;
+    display: flex;}
+nav ul li {
+        margin: 0 15px;
+}
+nav ul li a {
+        color: #fff;text-decoration: none;
+        font-weight: 500;
+        transition: color 0.3s;
+}
+nav ul li a:hover {
+        color: violet; 
+}
+.slushi {
+    background-color: plum;
+    border: 1px solid black;
+    padding: 75px 50px 50px 50px;
+    width:800px;
+    height:300px;
+}
+.ferrari {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gumption {
+    font-size: 24px;
+    font-weight: bold;
+    color:white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+   
+}
